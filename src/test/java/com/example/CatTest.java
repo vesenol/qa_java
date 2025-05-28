@@ -34,5 +34,4 @@ class CatTest {
         when(feline.getKittens()).thenReturn(1);
         assertEquals(1, cat.getKittens());
     }
-
 }
